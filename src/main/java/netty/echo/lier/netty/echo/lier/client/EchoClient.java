@@ -19,7 +19,7 @@ public class EchoClient {
     private int port;
     private String host;
 
-    public void start(String host, int port){
+    public void startClient(String host, int port){
         this.host = host;
         this.port = port;
 
