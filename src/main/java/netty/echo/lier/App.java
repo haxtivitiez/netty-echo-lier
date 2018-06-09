@@ -10,9 +10,7 @@ import netty.echo.lier.netty.echo.lier.server.EchoServer;
  */
 public class App 
 {
-    public static void main( String[] args ) throws InterruptedException {
-
-        new EchoServer().startServer();
-
+    public static void main( String[] args ) {
+        System.out.println("Server Controller..........");
     }
 }
